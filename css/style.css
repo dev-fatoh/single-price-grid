@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+html{
+    font-size: 16px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+:root{
+    --primary-color-1:hsl(179, 62%, 43%);
+    --primary-color-2:hsl(71, 73%, 54%);
+    --secondry-color-1:hsl(204, 43%, 93%);
+    --secondry-color-2:hsl(218, 22%, 67%);
+}
+body{
+    width: 100%;
+    background-color: #FFF;
+    font-family: 'Karla',arial,tahoma,Sans-Serif;
+    padding: .5em;
+   
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    border: 0;
+    border-radius:5px;
+    padding: .2em;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    
+    
+}
+h1,h2,p{
+    text-align: left;
+}
+.card-1,.card-2,.card-3{
+    padding: 2em;
+    outline: 1px solid red;
+    
+}
