@@ -16,20 +16,22 @@ html{
     --secondry-color-2:hsl(218, 22%, 67%);
 }
 body{
-    width: 100%;
-    background-color: #FFF;
+    width: 90%;
+    background-color: lightblue;
     font-family: 'Karla',arial,tahoma,Sans-Serif;
     padding: .5em;
+    margin: 1em;
    
 }
 .container{
-    width: 90%;
+    width: 98%;
     margin: 0 auto;
     border: 0;
+    background-color: #fff;
     border-radius:5px;
-    padding: .2em;
     display: grid;
     grid-template-columns: 1fr;
+    
     
     
     
@@ -38,7 +40,78 @@ h1,h2,p{
     text-align: left;
 }
 .card-1,.card-2,.card-3{
-    padding: 2em;
-    outline: 1px solid red;
+    padding: 1em 1.8em ;
+    
     
 }
+.card-1 .title{
+    padding: .8em 0;
+    font-size: 1.2em;
+    color: var(--primary-color-1);
+}
+.card-1 .sub-title{
+    padding: .5em 0;
+    font-size: 1em;
+    color: var(--primary-color-2);
+    
+}
+.card-1 .pragraph{
+    color: var(--secondry-color-2);
+    line-height: 1.8;
+    padding: 1em 0;
+}
+
+.card-2{
+    background-color:var(--primary-color-1);
+    color: #fff;
+}
+.card-2 .title{
+    font-size: 1.2em;
+    padding: 1em 0;
+}
+.card-2 .pragraph{
+    
+    color: rgba(255,255,255,0.6);
+    line-height: 1.4;
+}
+
+.pragraph span{
+    font-size: 2em;
+    font-weight: 700;
+    color: #fff;
+    vertical-align: middle;
+    
+    
+}
+.btn{
+    display: block;
+    width: 100%;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+    margin: 1.4em auto;
+    border: 0;
+    border-radius: 5px;
+    background-color: var(--primary-color-2);
+}
+.card-3{
+    background-color:var(--primary-color-1);
+    opacity: 0.9;
+    color: #fff;
+
+    
+    
+    
+}
+.card-3 .title{
+    font-size: 1.4em;
+    padding: 1.4em 0;
+    
+    
+    
+}
+.card-3 .pragraph{
+    line-height: 1.8;
+}
+
